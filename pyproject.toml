@@ -1,9 +1,13 @@
-[tool.docstring_enforcer]
-min_coverage = 80
-ignore_errors = ["D100", "D101", "D102", "D103", "D104", "D105", "D106", "D107", "D200", "D201", "D202", "D203", "D204", "D205", "D206", "D207", "D208", "D209", "D210", "D211", "D212", "D213", "D214", "D215", "D400", "D401", "D402", "D403", "D404", "D405", "D406", "D407", "D408", "D409", "D410", "D411", "D412", "D413"]
-paths = ["src/internship"]
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
+[project]
+name = "docstring-enforcer"
+version = "0.1.0"
+description = "Automated docstring enforcement tool"
+authors = [{name = "Your Name", email = "your.email@example.com"}]
+dependencies = ["astor", "click"]
 
-
-
-
+[project.scripts]
+docstring-enforcer = "docstring_enforcer.cli:main"
