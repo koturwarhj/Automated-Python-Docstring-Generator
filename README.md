@@ -4,7 +4,7 @@
 
 **Automated Python docstring analysis & enforcement tool**
 
-[![Tests](https://github.com/yourusername/docstring-enforcer/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/docstring-enforcer/actions)
+[![Tests](https://github.com/koturwarhj/docstring-enforcer/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/docstring-enforcer/actions)
 [![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-brightgreen)](http://localhost:8501)
 
 Production-ready CLI + Interactive Dashboard for Python docstring compliance.
